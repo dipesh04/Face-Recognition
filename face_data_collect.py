@@ -20,7 +20,7 @@ face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_alt.xml")
 
 skip = 0
 face_data = []
-dataset_path = '/Users/Dipesh/Desktop/CodingClub/Face_Recognition/data/'
+dataset_path = '/Users/HP/Desktop/CodingClub/Face_Recognition/data/'
 file_name = input("Enter the name of the person : ")
 
 # To read the images from the webcam
