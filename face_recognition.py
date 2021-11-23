@@ -46,7 +46,7 @@ def knn(train, test, k=5):
 cap = cv2.VideoCapture(0)
 
 # Face Detection
-face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_alt.xml")
+face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_alt.xml")
 
 skip = 0
 dataset_path = '/Users/HP/Desktop/CodingClub/Face_Recognition/data/'
